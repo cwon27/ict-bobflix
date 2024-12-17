@@ -17,5 +17,5 @@
 * Back-end : node.js  
 * DB : MySQL  
 * API : kakaomap  
-* TOOl : VisualStudio
+* TOOl : VisualStudio Code
  
