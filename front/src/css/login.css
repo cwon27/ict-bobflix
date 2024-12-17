@@ -1,0 +1,82 @@
+.login main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  width: 100%;
+  height: 70vh;
+}
+.login #logFrm {
+  width: 500px;
+  /* background-color: #fff0c9; */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 300px;
+}
+.login #logFrm h1 {
+  text-align: center;
+  font-size: 2.2em;
+  margin: 10px 0 50px;
+}
+.login #logFrm form input {
+  width: calc(100%); /* Adjust width to fit padding */
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 30px; /* Rounded corners for inputs */
+  box-sizing: border-box;
+}
+
+.login #logFrm form input:focus {
+  outline: none;
+  border: 1px solid #ff7300;
+}
+.login #logFrm form input[type="submit"] {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #ffa600de;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px; /* Rounded corners for submit button */
+}
+.login #logFrm form input[type="submit"]:hover {
+  /* background-color: #ff7300; */
+  background-color: #ff7300;
+}
+
+.login #logFrm > div {
+  /* display: flex; */
+  justify-content: space-between;
+  margin-top: 10px; /* Space between buttons and links */
+  padding-right: 10px;
+  text-align: center;
+}
+.login #logFrm > div a {
+  color: #070606;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(104, 104, 104);
+}
+.login #logFrm > div a:hover {
+  text-decoration: underline !important;
+  /* color: #ff7300; */
+  color: rgb(56, 56, 56);
+}
+
+.login #logFrm > div > p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: rgb(104, 104, 104);
+}
+.login-error {
+  padding-left: 13px;
+  color: rgb(255, 79, 79);
+  font-weight: bold;
+}

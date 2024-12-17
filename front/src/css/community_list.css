@@ -1,0 +1,142 @@
+/* Board.css */
+/* .community_list_box{ */
+
+/* } */
+.Community_Banner-container {
+  width: 100%;
+  margin-top: 70px;
+}
+.community-banner {
+  width: 100%;
+}
+
+.community-banner-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.board-container {
+  margin-top: 4%;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.board-header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.board-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.board-table th,
+.board-table td {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.board-table th:nth-child(2),
+.board-table td:nth-child(2) {
+  width: 40%;
+}
+.board-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.board-table th {
+  font-weight: bold;
+  border-top: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+}
+
+.board-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.board-write-button {
+  position: absolute;
+  top: 320px;
+  left: 31%;
+  border: 0;
+  background-color: #ff6f0f;
+  padding: 10px 13px 10px 13px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.board-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.board-pagination button {
+  font-size: 1.3em;
+  margin: 0 5px;
+  padding: 5px 5px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.board-search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.board-search-bar input {
+  width: 100%;
+  padding: 8px;
+  padding-right: 70px; /* 버튼 너비 + 여유 공간 */
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.board-search-bar button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 80%; /* 입력 필드보다 약간 작게 */
+  border: none;
+  border-radius: 25px;
+  background-color: #919191;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.board-search-bar button:hover {
+  background-color: #ff9b21;
+}
+
+.community_list_box {
+  width: 100%;
+}

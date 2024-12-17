@@ -1,0 +1,105 @@
+
+.myform-container{
+  max-width: 460px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  position: relative;
+  margin-left: 20px;
+}
+
+.myform-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.myform-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.myform-container .profile-pic {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.myform-container .form-group {
+  align-items: flex-start;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 5px;
+}
+
+.myform-container .form-group label {
+  width: 100px; /* 라벨의 너비를 고정 */
+  text-align: left;
+  padding-top: 8px ;
+  height: 30px;
+  font-weight: bold;
+}
+
+.myform-container .form-group input,
+.myform-container .contact-small,
+.myform-container .email-small,
+.myform-container select {
+  padding: 8px;
+  background-color: #FFF0C9;
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+}
+
+.myform-container .contact-group,
+.myform-container .email-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.myform-container div#button button {
+  width: 200px;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 35px;
+  background-color: #ffa600de;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.myform-container #button{
+  margin-left: 120px; /* 라벨 너비만큼 여백 */
+  width: calc(100% - 120px); /* 전체 너비에서 라벨 너비를 뺀 만큼 */
+}
+
+.myform-container button:hover {
+  background-color: #ff8c00de;
+}
+.myform-container .profile-pic>div{
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 10px;
+}  
+.myform-container .profile-pic>img{
+  border: #666 solid 1px;
+}
+.myform-container .contact-small{
+  width: 80px;
+}
+.myform-container #username,
+.myform-container #nickname{
+  width: 290px;
+}
+.myform-container .my_edit_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+}

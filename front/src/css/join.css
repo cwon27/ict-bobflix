@@ -1,0 +1,180 @@
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.join .join_form {
+  width: 1200px;
+  /* height: 1000px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: left;
+  /* background-color: #eeb0072c; */
+  padding: 50px 120px; /*폼 내부 여백 */
+  /* border: 3px solid rgb(167, 167, 167); */
+  /*border-radius: 10px;  폼의 모서리 둥글게 */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 그림자 추가 */
+  /* border-top: #ff7300 solid 2px; */
+}
+/* .join .form-group:first-child{
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+} */
+.join .form-group {
+  display: flex;
+  align-items: center;
+  /* justify-content: left; */
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  /* border-bottom: 1px solid #d9d9d9;  */
+}
+.join .form-group label {
+  margin-left: 170px;
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.join .form-group input {
+  outline: none;
+  font-size: 1.2em;
+  height: 45px;
+  width: 400px;
+  background-color: #fff0c9; /* 입력 필드와 셀렉트 박스의 배경색을 노란색으로 설정합니다. */
+  /*border: 1px solid #ccc;  입력 필드와 셀렉트 박스의 경계를 연한 회색으로 설정합니다. */
+  padding: 5px; /* 입력 필드와 셀렉트 박스의 안쪽 여백을 설정합니다. */
+  border-radius: 30px; /* 입력 필드와 셀렉트 박스의 모서리를 둥글게 만듭니다. */
+  border: none;
+  padding-left: 30px;
+}
+.join .form-group input:focus {
+  border: 1px solid #ff7300;
+}
+.join .form-group input[type="tel"] {
+  margin: 0px 5px;
+  width: 130px; /* 연락처 번호기입칸 크기 */
+}
+.join .form-group #email {
+  width: 270px; /*이메일 입력칸 크기 */
+}
+
+.join .check-duplicate-button {
+  text-align: center;
+  width: 100px;
+  margin-left: 10px;
+}
+/* 개별 버튼 스타일링 */
+.join .check-duplicate-button,
+/* .join .find-zipcode-button, */
+.join .submit-button {
+  background-color: #ffa600de; /* 버튼의 배경색을 연한 노란색으로 설정합니다. */
+  color: white;
+  /*border: 0px solid #a3a3a3;  버튼의 경계를 연한 회색으로 설정합니다. */
+  /*padding: 8px ;  버튼의 안쪽 여백을 설정합니다. */
+  border-radius: 50px; /* 버튼의 모서리를 둥글게 만듭니다. */
+  cursor: pointer; /* 버튼에 마우스를 올렸을 때 손가락 모양 커서를 표시합니다. */
+  font-size: 1em; /* 버튼의 글자 크기를 설정합니다. */
+  border: none;
+  font-weight: bold;
+}
+.join .check-duplicate-button:hover,
+/* .join .find-zipcode-button:hover, */
+.join .submit-button:hover {
+  background-color: #ff7300; /* 버튼에 마우스를 올렸을 때 배경색을 더 어두운 노란색으로 변경합니다. */
+}
+.join .submit-button {
+  background-color: #ffa600de; /* 회원가입 버튼의 배경색을 연한 노란색으로 설정합니다. */
+  padding: 15px 30px; /* 회원가입 버튼의 안쪽 여백을 설정하여 버튼 크기를 키웁니다. */
+  font-size: 20px; /* 회원가입 버튼의 글자 크기를 설정합니다. */
+  width: 250px; /* 회원가입 버튼의 너비를 설정하여 크기를 조정합니다. */
+  margin-top: 20px;
+}
+/* 버튼을 가운데 정렬하는 컨테이너 스타일 */
+.join .center-button {
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.join .id_check_error {
+  color: rgb(255, 80, 80);
+  font-weight: bold;
+}
+
+.join .contact-small,
+.join .email-small {
+  /* border: solid 1px #ccc; */
+  width: 110px;
+  background-color: #fff0c9;
+  border-radius: 30px;
+  height: 45px;
+  border: none;
+  padding-left: 10px;
+}
+.join-div h1 {
+  font-weight: bold;
+  color: #6d6d6d;
+}
+
+.form-group-id {
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: left; */
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.join .error_box {
+  /* width: auto; */
+  /* display: flex; */
+
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* float: left; */
+  display: inline;
+  margin-left: 310px;
+  display: none;
+}
+
+.join .id_layer {
+  /* width: 100%; */
+  /* display: flex; */
+  justify-content: center;
+}
+
+.id_layer label {
+  margin-left: 170px;
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.id_layer input {
+  outline: none;
+  font-size: 1.2em;
+  height: 45px;
+  width: 400px;
+  background-color: #fff0c9; /* 입력 필드와 셀렉트 박스의 배경색을 노란색으로 설정합니다. */
+  /*border: 1px solid #ccc;  입력 필드와 셀렉트 박스의 경계를 연한 회색으로 설정합니다. */
+  padding: 5px; /* 입력 필드와 셀렉트 박스의 안쪽 여백을 설정합니다. */
+  border-radius: 30px; /* 입력 필드와 셀렉트 박스의 모서리를 둥글게 만듭니다. */
+  border: none;
+  padding-left: 30px;
+}

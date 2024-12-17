@@ -1,0 +1,99 @@
+.community_create_box{
+  padding-bottom: 0px;
+}
+.create-post {
+  width: 800px;
+  padding: 70px;
+  margin-top: 140px !important;
+  border-radius: 5%;
+  background-color: #eeb0072c;
+  padding-bottom: 40px;
+}
+
+.create-post h2 {
+  font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #616161;
+}
+
+.create-post .form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.create-post .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#title {
+  background-color: white;
+}
+
+.create-post .form-group select,
+.create-post .form-group input,
+.create-post .form-group textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.create-post #category-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.create-post #title-group {
+  flex: 3;
+}
+
+.create-post #title {
+  border-radius: 10px;
+}
+
+.create-post #content {
+  border-radius: 10px;
+  height: 300px;
+  resize: none;
+}
+
+.create-post .form-buttons {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.create-post .submit-button {
+  width: auto;
+  min-width: 100px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #ffa600de;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.create-post .submit-button:hover {
+  background-color: #f0c330;
+}
+
+@media (max-width: 480px) {
+  #category-title-group {
+    flex-direction: column;
+  }
+}
+
+.create-post h2{
+  text-align: center;
+}

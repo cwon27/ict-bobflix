@@ -1,0 +1,15 @@
+#root {
+  width: 100%;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+main> *:first-child{
+  /* margin-top: 60px; */
+}
+
+a { text-decoration: none !important; outline: none;}
+
+a:hover, a:active {text-decoration: none; }
+

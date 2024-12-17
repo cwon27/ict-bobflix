@@ -1,0 +1,267 @@
+.community_view {
+  width: 100%;
+  position: relative;
+  padding-bottom: 50px;
+  top: 200px;
+}
+.save_del-action {
+  width: 600px;
+  display: flex;
+  justify-content: right;
+}
+#editPost {
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: #ffa600de;
+  color: #fff;
+}
+
+#editPost:hover {
+  background-color: #ff8c00de;
+}
+#deletePost {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  background-color: #c0c0c0;
+}
+#deletePost:hover {
+  background-color: #9c9c9c;
+}
+.view-post {
+  width: 1200px;
+  justify-content: space-between;
+}
+.user_profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  border: 1px solid gray;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+#post-left {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+#post-right {
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.post-author {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.post-date {
+  font-size: 0.9em;
+}
+
+.post-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#text-content {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.post-content {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: flex-end;
+  color: #666;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.comments-section {
+  padding-top: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.comments-list {
+  background-color: #eeb0072c;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  width: 1200px;
+}
+
+.comments-section h3 {
+  margin-bottom: 20px;
+}
+
+.comments-section form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comments-section input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.comments-section button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+#comment-left,
+#comment-right {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+#comment-left {
+  flex-grow: 1;
+}
+#comment-right {
+  justify-content: flex-end;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.comment-date {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.comment-content {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#commnet_delete_button {
+  width: 100px;
+  border-radius: 4px;
+  color: white;
+  background-color: #f1d1d3de;
+}
+#commnet_delete_button:hover {
+  background-color: #f78088e1;
+}
+.comment-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.comment-actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.post-like-button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.post-views {
+  font-size: 0.9em;
+}
+
+.post_user_data img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  border: 1px solid gray;
+}
+.back-action {
+  text-align: center;
+  margin-top: 20px;
+}
+#returnList {
+  margin-top: 20px;
+  width: 180px;
+  border-radius: 4px;
+  background-color: #c0c0c0;
+  color: white;
+  padding: 9px;
+  font-weight: bold;
+}
+
+#returnList:hover {
+  background-color: #9c9c9c;
+}
+
+#comment_button {
+  width: 150px;
+  border-radius: 4px;
+  color: white;
+  background-color: #ffa600de;
+}
+
+#comment_button:hover {
+  background-color: #ff8c00de;
+}
+
+.input-grade {
+  display: flex;
+  margin: 30px 0px 10px 10px;
+  position: relative;
+}
+
+.grade-inputs-chaewon {
+  display: flex;
+  position: absolute;
+  left: 70px;
+  bottom: 0px;
+}

@@ -1,0 +1,103 @@
+.recommend_create {
+    margin-top: 120px;
+    background-color: #eeb0072c;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; border-radius: 15px; 
+    width: 100%; max-width: 700px;
+}
+.restaurant-form h1 {
+    text-align: center; margin: 0 auto; padding: 20px;
+    border-bottom: 3px solid #ccc; width: 60%; 
+}
+.contents-con{
+    width: 100%;  float: left;
+    width: 100%;  padding-top: 15px; float: left;
+}
+.restaurant-form label{
+    width: 100%;
+}
+.restaurant-form ul{
+    width: 100%;
+}
+.restaurant-form ul, li {
+    list-style: none; padding: 0; margin-bottom: 10px;
+}
+.restaurant-form li:first-of-type{
+    width: 15%; float: left; text-align: center; font-weight: bold;
+    height: 20px; float: left; line-height: 50px;
+    padding-bottom: 20px; font-size: 1.1em; margin-left: 50px;
+}
+.restaurant-form li:last-of-type{
+    width: 70%; align-items: center; float: left;
+    margin-left: 10px; padding: 10px; 
+}    
+.recommend_create .tel{
+    width: 100%; margin: 0; padding: 0;
+}
+.recommend_create .etc{
+    padding: 5px;
+}
+.restaurant-form input[type="text"],
+.restaurant-form select,
+.restaurant-form input[type="file"],
+.tel select {
+    width: 100%; padding: 10px; margin-top: 5px; 
+    border: 1px solid #ccc; border-radius: 20px; 
+    box-sizing: border-box;
+}
+.food-type-inputs{
+    display: flex; justify-content: space-between;
+    padding-left: 30px; padding-right: 30px;
+}
+
+
+.recommend_create .optime,
+.recommend_create .tel,
+.recommend_create .grade-inputs {
+    display: flex; justify-content: space-between; align-items: center;
+}
+.optime select,
+.recommend_create .tel input {
+    margin-right: 10px; cursor: pointer; width: 100%;
+}
+
+.grade-inputs span {
+    cursor: pointer; font-size: 30px; margin-right: 5px; 
+    padding-left: 30px;
+}
+
+.food-type-inputs input[type="checkbox"] {
+    transform: scale(1.5); 
+}
+.grade-inputs{
+    width: 50%;
+}
+.restaurant-form .recommend_create_btn {
+    width: 20%; padding: 10px; background-color: #ffa600de;
+    color: white; border: none; border-radius: 25px;
+    font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;
+    margin-left: 270px; font-weight: bold;
+}
+.restaurant-form button:hover {
+    background-color: #ff8c00de;
+}
+.recommend_create .file_input,
+.recommend_create .file_input input {
+    height: 50px;
+}
+
+.recommend_create_addr input{
+    width: 300px !important;
+}
+
+.recommend_create_addr button{
+    margin-left: 15px;
+    border: none;
+    color: #fff;
+    background-color: #ffa600de;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.recommend_create_box{
+}

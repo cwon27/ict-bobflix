@@ -1,0 +1,96 @@
+/* EditPost.css */
+.community_edit{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 700px;
+  
+
+}
+.edit-post {
+    width: 100%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin-top : auto;
+    padding: 70px;
+    padding-bottom: 40px;
+    background-color: #eeb0072c;
+    
+  }
+  .edit-post form{
+    width: 100%;
+  }
+  .edit-post h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #616161;
+  }
+  #title {width: 100%;}
+
+  .edit-post .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .edit-post .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-post .form-group input[type="text"],
+  .edit-post .form-group textarea {
+    width: 100%;
+    padding: 10px; margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .edit-post .form-group textarea {
+    height: 300px;
+    resize:none
+  }
+  
+  .edit-post .form-buttons {
+    display: flex;
+    justify-content:right;
+  }
+  
+  .edit-post .submit-button,
+  .edit-post .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  
+  .edit-post .submit-button {
+    background-color: #FF9B21;
+    color: white;
+  }
+  
+  .edit-post .submit-button:hover {
+    
+    background-color: #fca842;
+  }
+  
+  .cancel-button {
+    margin-left: 10px;
+    
+    background-color: #ddd;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ddd;
+  }
+  

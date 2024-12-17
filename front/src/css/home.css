@@ -1,0 +1,140 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.recommend_list {
+  display: flex;
+  margin: 110px 0 30px 0;
+  width: 1200px;
+  height: 180px;
+  /* background-color: #eeb0072c; */
+  /* border-radius: 30px; */
+  justify-content: space-around;
+  padding: 0 40px;
+  align-items: center;
+}
+
+.recommend > div {
+  width: 160px;
+  height: 160px;
+  border-radius: 12%;
+}
+
+.recommend > div > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 12%;
+}
+
+.recommend > span {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1em;
+  color: gray;
+  font-weight: bold;
+}
+
+/* .recommend > span:hover {
+  color: #ff7300;
+} */
+
+/* .img_hover {
+  background-color: #6e6e6e;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  display: block;
+}
+
+.recommend > div > img:hover .img_hover {
+  display: block;
+} */
+
+#map {
+  margin-top: 100px;
+  width: 1000px !important;
+  height: 500px;
+  z-index: 10;
+}
+
+/* 채원 */
+.res_list {
+  width: 1200px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.res_img {
+  width: 100%;
+  height: 276px;
+  margin: 10px 0;
+}
+
+.col-md-3 {
+  margin-bottom: 100px;
+}
+
+.res_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.res_img span {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  color: gray;
+  font-weight: bold;
+}
+
+.code_h1 {
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+  margin-bottom: 30px;
+}
+
+.res_list_all {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.res_list_code {
+  width: 100%;
+  padding-top: 60px;
+  position: relative;
+  animation: fadeInUp 1s;
+}
+
+.res_list_code:nth-of-type(2n + 1) {
+  background-color: white;
+}
+
+/* .res_list_code:nth-of-type(2n) {
+  background-color: #eeb0072c;
+} */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
