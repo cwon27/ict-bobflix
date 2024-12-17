@@ -7,17 +7,17 @@ Bobflix : 리액트를 활용한 비동기처리 반응형 식당 추천 웹사�
 
 담당 기능
 
-* 메인 UI 및 기능 구현
- ● 추천 페이지 UI 및 기능 구현
- ● 식당 상세페이지 UI 및 기능 구현
- ● 리뷰 CRUD 기능 구현
- ● 전체적인 UI 보완
- ● DB 설계 및 통합
+*메인 UI 및 기능 구현
+*추천 페이지 UI 및 기능 구현
+*식당 상세페이지 UI 및 기능 구현
+*리뷰 CRUD 기능 구현
+*전체적인 UI 보완
+*DB 설계 및 통합
 
 개발 환경 (사용기술)
 
- ● Front-end : react, CSS , JS , HTML5, Bootstrap
- ● Back-end : node.js
- ● DB / Server : MySQL
- ● API : kakaomap
- ● TOOl : VisualStudio
+*Front-end : react, CSS , JS , HTML5, Bootstrap
+*Back-end : node.js
+*DB / Server : MySQL
+*API : kakaomap
+*TOOl : VisualStudio
