@@ -15,7 +15,7 @@
 #### 개발 환경 (사용기술)
 * Front-end : react, CSS , JS , HTML5, Bootstrap  
 * Back-end : node.js  
-* DB / Server : MySQL  
+* DB : MySQL  
 * API : kakaomap  
 * TOOl : VisualStudio
  
